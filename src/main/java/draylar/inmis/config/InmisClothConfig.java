@@ -14,14 +14,14 @@ import java.util.List;
 public class InmisClothConfig implements ConfigData {
 
     public List<BackpackInfo> backpacks = Arrays.asList(
-            BackpackInfo.of("baby", 3, 1, false, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER),
-            BackpackInfo.of("frayed", 9, 1, false, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, true),
-            BackpackInfo.of("plated", 9, 2, false, SoundEvents.ITEM_ARMOR_EQUIP_IRON),
-            BackpackInfo.of("gilded", 9, 3, false, SoundEvents.ITEM_ARMOR_EQUIP_GOLD),
-            BackpackInfo.of("bejeweled", 9, 5, false, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND),
-            BackpackInfo.of("blazing", 9, 6, true, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER),
-            BackpackInfo.of("withered", 11, 6, false, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER),
-            BackpackInfo.of("endless", 15, 6, false, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER)
+            BackpackInfo.of("baby", 3, 3, false, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER),
+            BackpackInfo.of("frayed", 6, 3, false, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, true),
+            BackpackInfo.of("plated", 6, 6, false, SoundEvents.ITEM_ARMOR_EQUIP_IRON),
+            BackpackInfo.of("gilded", 9, 6, false, SoundEvents.ITEM_ARMOR_EQUIP_GOLD),
+            BackpackInfo.of("bejeweled", 9, 9, false, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND),
+            BackpackInfo.of("blazing", 12, 6, true, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER),
+            BackpackInfo.of("withered", 12, 9, false, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER),
+            BackpackInfo.of("endless", 12, 15, false, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER)
     );
 
     public boolean unstackablesOnly = false;
